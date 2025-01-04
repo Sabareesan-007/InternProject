@@ -1,0 +1,466 @@
+body {
+    background-color: #0c142c;
+    background-size: cover;
+    color: white;
+}
+
+.header-container {
+    position: relative;
+    margin: 0;
+    color: white;
+    height: 700px;
+    overflow: hidden;
+}
+
+.header-container video {
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.header-top-img {
+    margin-left: 30px;
+    padding: 30px;
+    position: relative;
+}
+
+.header-card {
+    height: 250px;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+}
+
+.header-head {
+    line-height: 70px;
+}
+
+.header-card-img {
+    height: 50px;
+    width: 100px;
+    margin: 8px;
+}
+
+.header-span {
+    color: #a3e635;
+}
+
+.header-button {
+    margin: 30px;
+    position: relative;
+}
+
+.header-btn-primary {
+    margin-left: 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    width: 300px;
+    font-weight: bold;
+}
+
+.btn-outline-light {
+    margin-left: 30px;
+    color: #ffffff;
+    width: 300px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.header-bg {
+    position: relative;
+    height: 100%;
+    background-image: linear-gradient(to right, #0c142c, transparent);
+}
+
+.scroll-heading {
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.scrolling-container {
+    padding: 30px;
+    margin: 30px;
+}
+
+.scrolling-columns {
+    gap: 50px;
+}
+
+.scrolling-logos {
+    gap: 30px;
+}
+
+.scrolling-row {
+    gap: 20px;
+}
+
+.scrolling-row.row-1 {
+    animation: scroll-row-1 30s linear infinite;
+}
+
+.scrolling-row.row-2 {
+    animation: scroll-row-2 30s linear infinite;
+}
+
+.scrolling-row img {
+    height: 60px;
+}
+
+@keyframes scroll-row-1 {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-row-2 {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.session-outline {
+    background-image: url(https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20\(1\).png);
+    background-size: cover;
+    height: 900px;
+}
+
+.session {
+    text-align: center;
+    color: #ffffff;
+    margin: 30px;
+    padding: 30px;
+}
+
+.session h2 {
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.session p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.session-filters button {
+    border-color: #f8fafc;
+    border-style: solid;
+    background-color: #1e293b;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.session-filter {
+    background-color: red;
+    color: black;
+}
+
+.card {
+    text-align: left;
+    background-color: #334155;
+    border: none;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.card .card-img-left {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sandeep.png');
+    background-size: cover;
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.card-img-center {
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sanjay.png');
+    background-size: cover;
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.card-img-end {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690c3b977eb17ab2fe49ddb_krishna-raghavan-thumbnail.webp');
+    background-size: cover;
+    height: 180px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.card-title {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.card-btn {
+    width: 100px;
+    text-align: left;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-link {
+    color: #60a5fa;
+}
+
+.card-footer {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.card-footer span {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.feedback-container {
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+}
+
+.feedback-header {
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feedback-badge {
+    color: #f59e0b;
+    background-color: #713f1230;
+    border: 1px solid;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.feedback-card {
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+    background-color: #1e293b;
+    border-radius: 12px;
+}
+
+.feedback-card-head {
+    font-size: 20px;
+}
+
+.feedback-img {
+    height: 60px;
+    width: 60px;
+}
+
+.feedback-span {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+.promo-btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    width: 300px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.promo-container {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.promo-item {
+    width: 34px;
+    height: 34px;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.promo-background {
+    background-image: url(https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20\(1\).png);
+    background-size: cover;
+    height: 600px;
+}
+
+.promo-block {
+    margin: 30px;
+    padding: 30px;
+}
+
+.promo-heading {
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.podcast-container {
+    margin: 30px;
+    align-items: center;
+    padding: 30px;
+}
+
+.pod-form-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.pod-form-section {
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    margin-left: auto;
+}
+
+.pod-form-control {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    color: white;
+    box-shadow: none;
+}
+
+.pod-form-control:focus {
+    background-color: #2c2c2c;
+    border: 1px solid #007bff;
+    box-shadow: none;
+}
+
+.pod-btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.pod-btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.above-footer {
+    background-image: url(https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20\(1\).png);
+    background-size: cover;
+    height: 80px;
+}
+
+.above-footer-container {
+    margin: 30px;
+    padding: 30px;
+}
+
+.form-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.form-control {
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer-margin {
+    margin: 30px;
+}
+
+.footer {
+    background-color: #0c142c;
+    padding: 20px;
+}
+
+.footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: grey;
+}
+
+.payment-methods img {
+    max-width: 40px;
+    margin: 5px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer h5 {
+    font-size: 17px;
+    color: #aaa;
+    font-weight: bold;
+}
